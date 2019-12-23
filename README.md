@@ -72,7 +72,7 @@ Ansible galaxy hosts all stable version of this collection. Installation from an
 $ ansible-galaxy collection install arista.cvp
 Process install dependency map
 Starting collection install process
-Installing 'arista.cvp:1.0.1' to '~/.ansible/collections/ansible_collections/arista/cvp'
+Installing 'arista.cvp:x.x.x' to '~/.ansible/collections/ansible_collections/arista/cvp'
 ```
 
 ### Git installation
@@ -135,7 +135,10 @@ All files part of [`examples`](examples/) are copied into the container.
 
 This example outlines how to use `arista.cvp` to create a containers topology on Arista CloudVision.
 
-Some playbook examples are provided in [__`examples`__](examples/) folder with information about how to built a test environment.
+Some playbook examples are provided in [__`examples`__](examples/) folder with information about how to built a test environment:
+
+- EVPN Fabric Rollout using CloudVision and [Arista Validated Design](https://github.com/aristanetworks/ansible-avd)
+
 
 Below is a very basic example to build a container tology on a CloudVision platform assuming you have 3 veos named `veos0{1,3}` and a configlet named `alias`
 
